@@ -1,2 +1,81 @@
-# Esp32_Lora_Protocol
-Using Esp32 to connect to firebase and using Lora protocol
+# Code force problem set  
+* Problem set 1469B : Red and blue  
+* My solution has written in C programming language  
+* Link: [Red and blue](https://codeforces.com/problemset/problem/1469/B).    
+* Contact my email: <vietlongle2000@gmail.com>  for more information  
+
+# Threads
+
+> Monocarp had a sequence a consisting of  ***n + m*** integers ***a1, a2, …, a(n + m)***. He painted the elements into two colors, red and blue; ***n*** elements were painted red, all other ***m*** elements were painted blue.
+>
+> After painting the elements, he has written two sequences ***r1, r2, …, r(n)*** and ***b1, b2, …, b(m).*** The sequence r consisted of all red elements of ***a*** in the order they appeared in ***a***; similarly, the sequence ***b*** consisted of all blue elements of ***a*** in the order they appeared in ***a*** as well.
+>
+> Unfortunately, the original sequence was lost, and Monocarp only has the sequences ***r*** and ***b***. He wants to restore the original sequence. In case there are multiple ways to restore it, he wants to choose a way to restore that maximizes the value of:
+>
+>> ***f(a) = max(0, a1, (a1 + a2), (a1 +a2 + a3),…, (a1 +a2 + a3 + ⋯ + an + m))***.  
+>
+> Help Monocarp to calculate the maximum possible value of ***f(a)***.
+
+## Input
+
+> The first line contains one integer t ***(1 ≤ t ≤ 1000)*** — the number of test cases. Then the test cases follow. Each test case consists of four lines.  
+>
+> The first line of each test case contains one integer n:  
+* ***(1 ≤ n ≤ 1000)***.
+>
+> The second line contains ***n*** integers:  
+* ***r1, r2, …, r(n) (−100 ≤ r(i) ≤ 100)***.
+>
+> The third line contains one integer:  
+* ***m (1 ≤ m ≤100)***.
+>
+> The fourth line contains m integers:  
+*  ***b1, b2, …, b(m) (−100 ≤ bi ≤ 100)***.
+
+## Output
+> * For each test case, print one integer — the maximum possible value of ***f(a)***.  
+
+## Examples
+
+> ***INPUT***   
+ 4  
+ 4  
+ 6 -5 7 -3  
+ 3  
+ 2 3 -4  
+ 2  
+ 1 1  
+ 4  
+ 10 -3 2 2  
+ 5  
+ -1 -2 -3 -4 -5  
+ 5  
+ -1 -2 -3 -4 -5  
+ 1  
+ 0  
+ 1  
+ 0
+
+>  ***OUTPUT***  
+13  
+13  
+ 0  
+0   
+
+## *__Note__*  
+
+> In the explanations for the sample test cases, red elements are marked as ***bold***.
+>
+> In the first test case, one of the possible sequences ***a*** is:  
+* [***6***, 2, ***−5***, 3, ***7***, ***−3***,−4].
+>
+> In the second test case, one of the possible sequences a is:  
+* [10, **1**, −3, ***1***, 2, 2].
+>
+> In the third test case, one of the possible sequences a is:  
+* [***−1***, −1, ***−2***, −3, ***−2***, −4, −5, ***−3***, ***−4*** ,−5].
+>
+> In the fourth test case, one of the possible sequences a is:  
+* [0, ***0***].
+
+## Be fun, my friend  
